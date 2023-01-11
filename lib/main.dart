@@ -25,8 +25,12 @@ class MyApp extends StatelessWidget {
                 contentPadding: EdgeInsets.only(top:10, left: 16, bottom: 8),
                 subtitle: Text('Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae adipisci, quaerat aspernatur ad',
                 maxLines: 2,
-                overflow: TextOverflow.ellipsis,)
-              ),),
+                overflow: TextOverflow.ellipsis,),
+                onTap: () {
+                  
+                },
+              ),
+            ),
 
               // Divider(),
 
@@ -38,7 +42,8 @@ class MyApp extends StatelessWidget {
                 subtitle: Text('Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae adipisci, quaerat aspernatur ad',
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,)
-              ),),
+                ),
+              ),
 
               Card(
               child: ListTile(
@@ -48,7 +53,8 @@ class MyApp extends StatelessWidget {
                 subtitle: Text('Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae adipisci, quaerat aspernatur ad',
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,)
-              ),),
+                ),
+              ),
 
               Card(
               child: ListTile(
@@ -58,7 +64,8 @@ class MyApp extends StatelessWidget {
                 subtitle: Text('Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae adipisci, quaerat aspernatur ad',
                 maxLines: 2,
                 overflow: TextOverflow.ellipsis,)
-              ),)
+                ),
+              )
 
               
           ],
