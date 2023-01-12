@@ -10,16 +10,16 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     List<Color> colors = [Colors.red, Colors.black, Colors.teal, Colors.cyan];
 
-    List<String> names = ["Son Gohan", "Vegeta (Super Saiyan Blue)", "Gogeta (Super Saiyan Blue)", "Brolly"];
+    List<String> names = ["Goku (Mastered Ultra Instinct)","Son Gohan", "Vegeta (Super Saiyan Blue)", "Gogeta (Super Saiyan Blue)", "Brolly", "Cell"];
 
-    List<String> images = ["images/gohan.jpg", "images/vegeta.jpg", "images/gogeta-ssb.jpg", "images/brolly.jpg"];
+    List<String> images = ["images/mui-goku.jpg","images/gohan.jpg", "images/vegeta.jpg", "images/gogeta-ssb.jpg", "images/brolly.jpg", "images/cell.jpg"];
 
     return Scaffold(
         appBar: AppBar(
           title: Text("Dragonball"),
         ),
         body: ListView.builder(
-          itemCount: 4,
+          itemCount: 6,
           itemBuilder: (context, index) => Card(
             child: ListTile(
               leading: Image.asset(images[index],
