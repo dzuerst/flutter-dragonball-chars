@@ -13,9 +13,14 @@ class DetailPage extends StatelessWidget {
       ),
 
       body: Column(
+        // ignore: prefer_const_literals_to_create_immutables
         children: [
-          Image(
-            image: AssetImage("images/vegeta.jpg")
+          Container(
+            margin: EdgeInsets.only(top: 24),
+            child: Center(
+                child: CircleAvatar(backgroundImage: AssetImage("images/vegeta.jpg"),
+                radius: 100,),
+            ),
           )
         ],
       ),
