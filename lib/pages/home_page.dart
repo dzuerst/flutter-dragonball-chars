@@ -32,13 +32,7 @@ class HomePage extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
               ),
               onTap: () {
-                Fluttertoast.showToast(
-                    msg: names[index],
-                    toastLength: Toast.LENGTH_SHORT,
-                    gravity: ToastGravity.BOTTOM,
-                    timeInSecForIosWeb: 1,
-                    textColor: Colors.white,
-                    fontSize: 16.0);
+                 Navigator.of(context).pushNamed(DetailPage.routeName);
               },
             ),
           ),
