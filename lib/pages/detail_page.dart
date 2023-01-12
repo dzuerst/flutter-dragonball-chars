@@ -21,6 +21,13 @@ class DetailPage extends StatelessWidget {
                 child: CircleAvatar(backgroundImage: AssetImage("images/vegeta.jpg"),
                 radius: 100,),
             ),
+          ),
+
+          Container(
+            margin: EdgeInsets.only(top: 24),
+            child: Center(
+              child: Text("Vegeta (Super Saiyan Blue)"),
+            ),
           )
         ],
       ),
